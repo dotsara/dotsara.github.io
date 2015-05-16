@@ -2,8 +2,8 @@ name: "Sara's toolbox"
 description: "Sharing is caring."
 author: "Sara Flemming"
 
-url: "http://localhost:4000"
-# url: "http://dotsara.github.io"
+# url: "http://localhost:4000"
+url: "http://dotsara.github.io"
 
 
 exclude: [README.md, Rakefile]
