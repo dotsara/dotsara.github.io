@@ -2,15 +2,17 @@
 <html lang="en"> 
 <head>
   <meta charset="utf-8">
-  <title>Toolbox</title>
+  <title>Sara's toolbox</title>
   <meta name="author" content="dotsara">
-  <meta name="description" content="Stuff and things.">
+  <meta name="description" content="Sharing is caring.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="learning">
   
   <link rel="icon" href="http://localhost:4000/favicon.png" />
   <link rel="apple-touch-icon-precomposed" href="http://localhost:4000/apple-touch-icon.png" />
   
   <link rel="stylesheet" href="http://localhost:4000/style.css" />
+  <link rel="stylesheet" href="http://localhost:4000/additional.css" />
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -18,12 +20,13 @@
 <div class="wrap">
   
 <header class="mb">
-  <h1 class="h2 m-0"><a href="http://localhost:4000">Toolbox</a></h1>
-  <p>Stuff and things.</p>
+  <h1 class="h2 m-0"><a href="http://localhost:4000">Sara's toolbox</a></h1>
+  <p>Sharing is caring.</p>
 </header>
 <main>
 <article class="post">
   <h1><a href="http://localhost:4000/2015/hello-again-world" title="Hello again, World!">Hello again, World!</a></h1>
+  <p class="small gray"><time datetime="2015-05-16">16 May 2015</time></p>
   <p>Aloha!</p>
 
 <p>So, check it out: it took me <em>almost</em> 10 attempts to grok how to make a Github pages site again. I’d done it once before, but went 18 months never updating it, so, y’know: clean slate! (And dead links, I <em>know</em>!) Fool that I can sometimes be, I totally thought this time it would be easier. Jekyll gem, all this extra experience under my belt, blah blah blah… </p>
@@ -34,14 +37,36 @@
 
 <p>Instead of boring you with how spectacularly stumped I can get, I’ll tell you what finally worked for me.</p>
 
+<p>Before doing anything at <a href="https://github.com">github.com</a> or at the command line, I opened up a bunch of Github Pages tutorials and read through them. (I can, fairly, be accused of sometimes jumping too soon and trying to start a thing before reading all the instructions. <em>ahem</em>)</p>
+
+<p>I had tried (and failed) so many times to start from scratch, so the first step in <a href="http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/">this Smashing Magazine tutorial</a> where you fork a ready-made Jekyll repo and just edit the <code>_config.yml</code> is what really helped everything fall into place for me.</p>
+
+<p><a href="http://jxnblk.com/Heather">Heather</a> is the theme I wanted to use and now that I got the whole fork-then-edit thing, starting over with Heather was a snap. Hooray!</p>
+
+<p>If you have a peek at the repo for this site, you’ll notice that it doesn’t say it’s forked from the Heather repo, anymore. And that’s because in the spirit of “I don’t know, try it out!” I wanted to learn how to kill the commit history on a forked repo. (There’s no real need for me to keep it in this instance.)</p>
+
+<p>Stack Overflow to the rescue! <a href="http://stackoverflow.com/questions/4515580/how-do-i-remove-the-old-history-from-a-git-repository">How do I remove the old history from a git repository?</a> Way down at the bottom, <a href="http://stackoverflow.com/a/28081807">I found what I was after</a>.</p>
+
+<p>Here’s what I did locally:</p>
+
 <ul>
-  <li>Before doing anything at <a href="https://github.com">github.com</a> or at the command line, I opened up a bunch of Github Pages tutorials and read through them. (I can, fairly, be accused of sometimes jumping too soon and trying to start a thing before reading all the instructions. :grimacing: )</li>
+  <li>Fork the Heather theme to my repo</li>
+  <li>Rename the newly-forked repo to <code>dotsara.github.io</code> (Settings &gt; Repository name)</li>
+  <li>Clone the repo (via SSH because I don’t want to have to enter my user/pass every. single. time) to my machine: <code>git clone git@github.com:dotsara/dotsara.github.io.git</code></li>
+  <li><code>cd</code> into my new folder: <code>cd dotsara.github.io</code></li>
+  <li>Delete the <code>.git</code> directory, re-initialize the folder as a git folder, add a remote server back <br />
+ <code>sudo rm -r .git &amp;&amp; git init &amp;&amp; git remote add origin git@github.com:dotsara/dotsara.github
+ .io.git</code></li>
+  <li>Edit this blog post, make a new commit (which will show all the Jekyll &amp; theme files as new/untracked) and push!</li>
 </ul>
 
-  <p class="small gray"><time datetime="2015-05-16">16 May 2015</time></p>
+<p>And that’s… that. See you soon!</p>
+
 </article>
 </main>
 </div>
-
+<div class="footer">
+  <a href="https://twitter.com/dotsara">@dotsara</a>
+</div>
 </body>
 </html>

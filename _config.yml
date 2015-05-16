@@ -1,10 +1,9 @@
-name: "Toolbox"
-description: "Stuff and things."
-author: "dotsara"
-avatar: https://avatars0.githubusercontent.com/u/339829?v=3&s=460
+name: "Sara's toolbox"
+description: "Sharing is caring."
+author: "Sara Flemming"
 
-# url: "http://localhost:4000"
-url: "http://dotsara.github.io"
+url: "http://localhost:4000"
+# url: "http://dotsara.github.io"
 
 
 exclude: [README.md, Rakefile]

@@ -4,8 +4,7 @@ layout: default
 
 {% for post in site.posts %}
 <article class="post">
-  <h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-  {{ post.excerpt }}
-  <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">Read More &raquo;</a>
+  <p class="small gray"><time datetime="{{ post.date | date: "%Y-%m-%d"}}">{{ post.date | date_to_long_string }}</time></p>
+  <h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} &rarr;</a></h1>
 </article>
 {% endfor %}

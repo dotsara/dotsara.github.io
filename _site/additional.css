@@ -1,0 +1,17 @@
+/* adding my own bits and pieces */
+
+code {
+  background: #fff;
+  color: #690FC4;
+  font-size: 110%;
+
+}
+
+ul {  margin-bottom: 32px; }
+
+.footer {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 16px 5% 32px;
+}
