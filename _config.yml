@@ -6,7 +6,7 @@ author: "Sara Flemming"
 url: "http://dotsara.github.io"
 
 
-exclude: [README.md, Rakefile]
+exclude: [README.md, Rakefile, NOTES.md]
 paginate: 16
 permalink: /:year/:title
 gems:
