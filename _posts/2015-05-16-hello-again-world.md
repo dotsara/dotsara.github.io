@@ -8,7 +8,7 @@ description: "Back to bloggin' and stuff."
 
 Aloha!
 
-So, check it out: it took me _almost_ 10 attempts to grok how to make a Github pages site again. I&#8217;d done it once before, but went 18 months never updating it, so, y&#8217;know: clean slate! (And dead links, I _know_!) Fool that I can sometimes be, I totally thought this time it would be easier. Jekyll gem, all this extra experience under my belt, blah blah blah…&nbsp;
+So, check it out: it took me _almost_ 10 attempts to grok how to make a Jekyll-Github pages site again. I&#8217;d done it once before, but went 18 months never updating it, so, y&#8217;know: clean slate! (_I know, I know:_ dead links.) Fool that I can sometimes be, I totally thought this time it would be easier. Jekyll gem, all this extra experience under my belt, blah blah blah…&nbsp;
 
 I can hear you laughing from here.
 
@@ -37,5 +37,6 @@ Here&#8217;s what I did locally:
    .io.git`
 * Edit this blog post, make a new commit (which will show all the Jekyll & theme files as new/untracked) and push!
 
+:tada:
 
 And that&#8217;s…&nbsp;that. See you soon!
