@@ -7,7 +7,16 @@
   {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if page.categories %}<meta name="keywords" content="{{ page.categories }}">{% endif %}
-  
+  {% if page.url == "/index.html" %}
+    <!--
+        1. Using Brent Jackson's Heather, a HyperMinimal Jekyll Theme
+           because it is aces. https://github.com/jxnblk/Heather 
+        2. Jekyll is throwing me back to when I spent 2+ years living
+           inside liquid tags working on marketing emails. I'm not sure
+           that I miss it. (: 
+        3. You viewed source! Aw.
+    -->
+  {% endif %}
   <link rel="icon" href="{{ site.url }}/favicon.png" />
   <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/apple-touch-icon.png" />
   
