@@ -22,7 +22,7 @@ I had tried (and failed) so many times to start from scratch, so the first step 
 
 [Heather](http://jxnblk.com/Heather) is the theme I wanted to use and now that I got the whole fork-then-edit thing, starting over with Heather was a snap. Hooray!
 
-If you have a peek at the repo for this site, you'll notice that it doesn't say it's forked from the Heather repo, anymore. And that's because in the spirit of "I don't know, try it out!" I wanted to learn how to kill the commit history on a forked repo. (There's no real need for me to keep it in this instance.)
+If you have a [peek at the repo for this site](https://github.com/dotsara/dotsara.github.io), you'll notice that it doesn't say it's forked from the Heather repo, anymore. And that's because in the spirit of "I don't know, try it out!" I wanted to learn how to kill the commit history on a forked repo. (There's no real need for me to keep it in this instance.)
 
 Stack Overflow to the rescue! [How do I remove the old history from a git repository?](http://stackoverflow.com/questions/4515580/how-do-i-remove-the-old-history-from-a-git-repository) Way down at the bottom, [I found what I was after](http://stackoverflow.com/a/28081807).
 
