@@ -16,11 +16,11 @@ Our code base isn't old by software standards, but in Internet years, it's pract
 
 However, we obviously have what any (every?) large-scale site has: cruft, dead code, junk drawer files. All those "ugh, I'll clean this up later" helper methods, all that horrendously nested and specific CSS, so much clunky, janky javascript. We have it all. (You can be jealous, it's all right.)
 
-A few months back I found myself on a new team and with the luxury (yes) of very few proper projects. I'd occasionally worked on a clean-up task here and there (encouraged by one of my excellent coworkers: [Tom Copeland](https://twitter.com/tcopeland)) and I thought, "hey self, why not _just_ work on clean-up? You know that one junk drawer file that you hate deep down in your bones? Now's your chance!"
+A few months back I found myself on a new team and with the luxury (yes) of very few proper projects. I'd occasionally worked on a clean-up task here and there (encouraged by one of my excellent coworkers: [Tom Copeland](https://twitter.com/tcopeland)) and I thought, "hey self, why not _just_ work on clean-up? You know that junk drawer file you hate deep down in your bones? Now's your chance!"
 
 And so I took it!
 
-If ever you wondered what it takes to focus on clean-up work for 3 months, here's what I learned:
+What does it take to focus on clean-up work for 3 months? What I learned is:
 
 * clean-up work is a non-destructive way to indulge in [yak shaving](http://sethgodin.typepad.com/seths_blog/2005/03/dont_shave_that.html); oh sure, you start all high-minded, ready to whip `this-terrible-stylesheet.css` into shape and a week later you've produced 6 pull requests, deleted a thousand lines of code, and feel pretty awesome. But you still haven't deleted the file. (Yet.)
 * you need to schedule non-clean-up work for yourself. Classes, tutorials, [rubber ducking](https://en.wikipedia.org/wiki/Rubber_duck_debugging) for a coworker, _something_. _Anything_. The breaks will keep you from climbing the walls and/or spending a lot of money on new keyboards…
