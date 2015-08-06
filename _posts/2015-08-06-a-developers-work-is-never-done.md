@@ -3,7 +3,7 @@ layout: post
 title: "A developer&#8217;s work is never done…"
 date: 2015-08-06
 categories: learning
-description: "There's no glamour, only less grind."
+description: "There's no glamour, but there *is* satisfaction."
 ---
 
 "[The Tedium of Managing Code](http://alistapart.com/column/the-tedium-of-managing-code)" by [Lyza Danger Gardner](https://twitter.com/lyzadanger) is excellent (h/t [@scriberty](https://twitter.com/scriberty)).
