@@ -3,7 +3,7 @@ description: "Sharing is caring."
 author: "Sara Flemming, dotsara"
 
 # url: "http://localhost:4000"
-url: "http://dotsara.github.io"
+#url: "http://dotsara.github.io"
 
 
 exclude: [README.md, Rakefile, NOTES.md]
