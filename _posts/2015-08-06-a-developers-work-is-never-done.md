@@ -36,3 +36,5 @@ It is _so_ satisfying. _Hell yeah_ I kept a brag sheet of my deletions (nearly 1
 It is also _so_ important. Reducing overhead when coworkers need to edit, add, or delete a feature? Reducing my own team’s confusion when we’re bug-hunting or troubleshooting? That is incredibly valuable. All the time you don’t spend wondering what a block of code means or does is time you get to spend solving problems.
 
 While I wouldn't want to _live_ on the corner of Hard and Boring Streets, it's a useful place to visit and leave better than you found it. :punch:
+
+-Sara
