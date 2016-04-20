@@ -6,8 +6,11 @@ code {
   font-size: 110%;
 }
 
-ul {  margin-bottom: 32px; }
+ul, ol {  margin-bottom: 3em; }
 
+li {
+	margin-bottom: .5em;
+}
 .footer {
   max-width: 768px;
   margin: 0 auto;
