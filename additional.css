@@ -17,3 +17,10 @@ li {
   padding: 16px 5% 32px;
   width: 90%;
 }
+
+.author img {
+	border: 1px solid #09c;
+	float: left;
+	margin-right: 2em;
+	padding: 2px;
+}
