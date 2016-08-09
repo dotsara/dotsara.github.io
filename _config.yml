@@ -1,6 +1,6 @@
 name: "Sara&#8217;s toolbox"
 description: "Sharing is caring."
-author: "Sara Flemming, dotsara"
+author: "dotsara"
 
 # url: "http://localhost:4000"
 #url: "http://dotsara.github.io"
@@ -11,3 +11,4 @@ paginate: 16
 permalink: /:year/:title
 gems:
   - jemoji
+  - jekyll-feed

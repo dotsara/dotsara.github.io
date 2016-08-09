@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-08-09T11:56:00-07:00</updated><id>/</id><title>Sara&amp;#8217;s toolbox</title><subtitle>Sharing is caring.</subtitle><author><name>dotsara</name></author><entry><title>Good stuff this week</title><link href="/2016/good-stuff-this-week" rel="alternate" type="text/html" title="Good stuff this week" /><published>2016-08-09T00:00:00-07:00</published><updated>2016-08-09T00:00:00-07:00</updated><id>/2016/good-stuff-this-week</id><content type="html" xml:base="/2016/good-stuff-this-week">&lt;p&gt;First up, via &lt;a href=&quot;https://twitter.com/jgarber&quot;&gt;@jgarber&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;JavaScript 4K demo competition! Build an amazing app with fewer than 4096 dependencies&lt;/p&gt;&amp;mdash; Joe Groff (@jckarter) &lt;a href=&quot;https://twitter.com/jckarter/status/762683017466744832&quot;&gt;August 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:joy:&quot; alt=&quot;:joy:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f602.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And from &lt;a href=&quot;https://twitter.com/mathowie&quot;&gt;Matt Haughey&lt;/a&gt;: &lt;a href=&quot;https://15minutes.inthemorni.ng/practical-tips-on-selling-a-car-on-craigslist-585449da628c#.c54iguuht&quot;&gt;Practical tips on selling a car on Craigslist&lt;/a&gt;. A clean car and decent-to-good photos (enlist a friend!) might read to you as some flavor of fibbing, but &lt;strong&gt;curb appeal&lt;/strong&gt; is a real thing (I don’t think any of us are immune to it) and super duper worth the effort.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2016/07/to-seem-confident-women-have-to-be-seen-as-warm&quot;&gt;To Seem Confident, Women Have to Be Seen as Warm&lt;/a&gt; (by &lt;a href=&quot;https://twitter.com/margaritmayo&quot;&gt;@margaritamayo&lt;/a&gt; &amp;amp; via &lt;a href=&quot;http://us4.campaign-archive2.com/home/?u=1542aabcd614d3cd89d54600b&amp;amp;id=4a47f5fa43&quot;&gt;stacy-marie ishmael’s #awesomewomen&lt;/a&gt;). Nothing about this is a surprise, but I think it’s worth sharing &lt;em&gt;because&lt;/em&gt; it’s not surprising to/for women? If the concerns listed here aren’t yours, even as an intellectual exercise think about having to keep them top of mind while at the same time learning, excelling, etc.&lt;/p&gt;
+
+&lt;p&gt;And finally: &lt;br /&gt;
+&lt;img src=&quot;http://66.media.tumblr.com/3dc55fbc7ce7095993fca3fb691ba64b/tumblr_oamlwwFU4Z1r1thdeo1_400.gif&quot; alt=&quot;The Rock believes in you&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have a good week! &lt;img class=&quot;emoji&quot; title=&quot;:wave:&quot; alt=&quot;:wave:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f44b.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; &lt;br /&gt;
+-S&lt;/p&gt;</content><summary>First up, via @jgarber:</summary></entry><entry><title>Slack effects &amp;amp; layoffs</title><link href="/2016/slack-effects-and-layoffs" rel="alternate" type="text/html" title="Slack effects &amp; layoffs" /><published>2016-04-20T00:00:00-07:00</published><updated>2016-04-20T00:00:00-07:00</updated><id>/2016/slack-effects-and-layoffs</id><content type="html" xml:base="/2016/slack-effects-and-layoffs">&lt;p&gt;Last month, &lt;a href=&quot;https://twitter.com/dotsara/status/710157222391615489&quot;&gt;I was laid off&lt;/a&gt; (&lt;a href=&quot;http://recode.net/2016/03/16/livingsocial-is-laying-off-more-than-50-percent-of-its-staff/&quot;&gt;more info&lt;/a&gt;). 2 days after my 5-year anniversary, no less! &lt;img class=&quot;emoji&quot; title=&quot;:persevere:&quot; alt=&quot;:persevere:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f623.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But what I’m interested in today is what happened &lt;em&gt;before&lt;/em&gt; I was laid off. Or… &lt;em&gt;while&lt;/em&gt; I was being laid off? Ugh, whichever.&lt;/p&gt;
+
+&lt;p&gt;My last team made heavy, heavy use of &lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt;’s &lt;a href=&quot;https://slack.com/apps&quot;&gt;integrations&lt;/a&gt;; in fact, we had a channel (&lt;code&gt;#flex-team-bots&lt;/code&gt;!) just for Github and CI-related (continuous integration) messages. New pull request? &lt;em&gt;Message!&lt;/em&gt; Build failed on &lt;code&gt;x&lt;/code&gt; server? &lt;em&gt;Message!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;All of that would have been 150% overwhelming in our regular channel, but siloed this way they were easy to consume as needed.&lt;/p&gt;
+
+&lt;p&gt;The morning of the layoffs, right as DM conversations about layoffs fired up, I noticed a bunch of integrations in multiple channels disappearing. &lt;em&gt;So-and-so deleted an integration in this channel: Github&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After a handful of these, I @-messaged the person whose name paired with the delete messages, asking if he was auditing integrations or what.&lt;/p&gt;
+
+&lt;p&gt;Right about then, &lt;a href=&quot;https://twitter.com/m_evans10&quot;&gt;Mike Evans&lt;/a&gt; DM’d me to point out that when a Slack account is deleted… any integrations that account setup are deleted as well.&lt;/p&gt;
+
+&lt;p&gt;Oh. &lt;em&gt;Ooooh.&lt;/em&gt; Oh, fuck.&lt;/p&gt;
+
+&lt;p&gt;So, &lt;strong&gt;tl;dr&lt;/strong&gt;: the Slack account responsible for deleting is the account used in automated messages to the channels/people specified by a given integration.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-few-thoughts&quot;&gt;A few thoughts…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I don’t imagine anyone expected automated messages to act as a coal mine canary, my goal here isn’t to wag a finger at Slack, I just wanted to point this out.   &lt;br /&gt;&lt;br /&gt;
+&lt;em&gt;Knowing is half the battle…?&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;In this situation, the person responsible for deleting might not &lt;em&gt;enjoy&lt;/em&gt; having to do it but the way Slack seems to be set up, that person ends up &lt;em&gt;the face&lt;/em&gt; of it (who knows how many DMs and @’s he got that day…  &lt;img class=&quot;emoji&quot; title=&quot;:confused:&quot; alt=&quot;:confused:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f615.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; ).   &lt;br /&gt;&lt;br /&gt;
+ &lt;em&gt;Maybe &lt;strong&gt;slackbot&lt;/strong&gt; could “send” these messages?&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Because the automated messages don’t provide any detail beyond their app (Github, New Relic, etc.) there’s no way to know &lt;em&gt;which&lt;/em&gt; integration was deleted. It might have been really important and useful, but once the dust settles and people realize it’s missing, it’s a guessing game about how to get it back.   &lt;br /&gt;&lt;br /&gt;
+&lt;em&gt;An integration archive might be useful here?&lt;/em&gt; &lt;br /&gt;
+&lt;code&gt;[integration app] [channel destination] [settings] [dates]&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/anildash&quot;&gt;Anil Dash&lt;/a&gt; talks about &lt;a href=&quot;https://medium.com/humane-tech/toward-humane-tech-23a20405681a#.l11omvdii&quot;&gt;humane tech&lt;/a&gt; and my friend (and former coworker!) &lt;a href=&quot;https://twitter.com/erniemiller&quot;&gt;Ernie Miller&lt;/a&gt; talks about &lt;a href=&quot;https://ernie.io/2016/03/15/talk-humane-development-empathy-unpacked/&quot;&gt;humane &lt;em&gt;development&lt;/em&gt;&lt;/a&gt; and these layoffs functioned, for me, as a practical demonstration of how and why humane tech &amp;amp; development are important.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:wave:&quot; alt=&quot;:wave:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f44b.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; &lt;br /&gt;
+-Sara&lt;/p&gt;</content><summary>Last month, I was laid off (more info). 2 days after my 5-year anniversary, no less! :persevere:</summary></entry><entry><title>Burnt. up.</title><link href="/2015/burnt-up" rel="alternate" type="text/html" title="Burnt. up." /><published>2015-11-12T00:00:00-08:00</published><updated>2015-11-12T00:00:00-08:00</updated><id>/2015/burnt-up</id><content type="html" xml:base="/2015/burnt-up">&lt;p&gt;It is a little bit scary to say, out loud: I am burned out.&lt;/p&gt;
+
+&lt;p&gt;(For the purposes of &lt;em&gt;this&lt;/em&gt; discussion, burned out means deeply unmotivated and emotionally tapped-out with respect to my job.)&lt;/p&gt;
+
+&lt;h2 id=&quot;how-did-this-happen&quot;&gt;How did this happen?&lt;/h2&gt;
+
+&lt;p&gt;It happened when I wasn’t looking. I wasn’t looking because I forgot that looking out for myself at work is just like it is elsewhere: it takes constant vigilance (Professor Moody would be so disappointed).&lt;/p&gt;
+
+&lt;p&gt;This year:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I have &lt;a href=&quot;/2015/a-developers-work-is-never-done&quot;&gt;done a ton of code clean-up&lt;/a&gt;: almost 10,000 LOC!&lt;/li&gt;
+  &lt;li&gt;I have worked on culture-related projects: improving documentation, &lt;em&gt;creating&lt;/em&gt; documentation, talking with new coworkers to learn what we (Engineering) look like to their fresh eyes&lt;/li&gt;
+  &lt;li&gt;I am working on one of the longest-running, most demanding projects I’ve ever been on&lt;/li&gt;
+  &lt;li&gt;I am turning into a bit of a pair programming fanatic (you would, too, if you had weekly sessions with &lt;a href=&quot;https://twitter.com/tcopeland&quot;&gt;@tcopeland&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/supwhaley&quot;&gt;@supwhaley&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/keekerdc&quot;&gt;@keekerdc&lt;/a&gt;!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are all good things! But at some point, I decided that work was going well and hey! That’s good enough, right!? Right? Right.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happened&quot;&gt;&lt;em&gt;What&lt;/em&gt; happened?&lt;/h2&gt;
+
+&lt;p&gt;At the top of the list: I’ve taken almost no time off this year. A day or two, here and there, but nothing significant and cumulatively less than a full week.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://49.media.tumblr.com/2bab0e1b469c340457ed0b4e07dff0aa/tumblr_nry5xpN0Rc1r1thdeo1_400.gif&quot; alt=&quot;Latrice is not pleased.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I &lt;em&gt;know&lt;/em&gt;. I mean, I know it &lt;em&gt;now&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I didn’t plan ahead, I didn’t take stock at regular intervals, I just… kept swimming.&lt;/p&gt;
+
+&lt;p&gt;Next up! In early spring this year, I hurt my back pretty seriously. And then I spent four months at… 25% my physical capacity? It fucking &lt;em&gt;sucked&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&quot;keavy-suggestion&quot;&gt;&lt;/a&gt;
+I couldn’t run, I couldn’t lift, I couldn’t swim (at first), I couldn’t sit for long periods of time, for two months I couldn’t even get out of bed without pain. &lt;img class=&quot;emoji&quot; title=&quot;:disappointed:&quot; alt=&quot;:disappointed:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f61e.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; It was weeks before I could stand walk more than a few blocks. And even longer before I called additional blocks &lt;em&gt;victories&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Probably I could have taken time off to chill, but I didn’t. I felt like I needed work to help keep me from spiraling downward emotionally.&lt;/p&gt;
+
+&lt;p&gt;And finally, while I was relying on work, which has been mostly good! this year, there’s also been some &lt;em&gt;not&lt;/em&gt; good.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;organizational change in general: big team shifts and lay-offs (emotionally taxing: &lt;img class=&quot;emoji&quot; title=&quot;:ballot_box_with_check:&quot; alt=&quot;:ballot_box_with_check:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/2611.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; ; mentally draining: &lt;img class=&quot;emoji&quot; title=&quot;:ballot_box_with_check:&quot; alt=&quot;:ballot_box_with_check:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/2611.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; )&lt;/li&gt;
+  &lt;li&gt;me, in particular: I’ve had 3 managers this year, each with their own style of managing (mentally draining: &lt;img class=&quot;emoji&quot; title=&quot;:ballot_box_with_check:&quot; alt=&quot;:ballot_box_with_check:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/2611.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; )&lt;/li&gt;
+  &lt;li&gt;that long-running project? It’s all new code, new-and-yet-familiar security concerns, a tiny team, and tight turnarounds (emotionally taxing: &lt;img class=&quot;emoji&quot; title=&quot;:ballot_box_with_check:&quot; alt=&quot;:ballot_box_with_check:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/2611.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; ; mentally draining: &lt;img class=&quot;emoji&quot; title=&quot;:ballot_box_with_check:&quot; alt=&quot;:ballot_box_with_check:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/2611.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt; )&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-did-it-take-me-so-long-to-figure-it-out&quot;&gt;Why did it take me so long to figure it out?&lt;/h2&gt;
+
+&lt;p&gt;Newton’s First Law of Motion?&lt;/p&gt;
+
+&lt;p&gt;This year, I’ve accidentally taught myself that regular check-ins aren’t a thing: I didn’t start out doing it and life rolled along and then I hurt my back and that took 150% of my attention and then I wasn’t hurt and I was so excited to &lt;em&gt;not&lt;/em&gt; be hurt and that took 200% of my attention.&lt;/p&gt;
+
+&lt;p&gt;Etcetera.&lt;/p&gt;
+
+&lt;p&gt;What finally made me consider that I am burned out is the morning I said my goal for the day was to &lt;em&gt;not&lt;/em&gt; cry before lunch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://31.media.tumblr.com/be7a64491313624a3daf33c8a1674a46/tumblr_nbeaafVg9J1r1thdeo1_250.gif&quot; alt=&quot;Cap can&#39;t even.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You said it, Cap.&lt;/p&gt;
+
+&lt;h2 id=&quot;now-what&quot;&gt;Now what?&lt;/h2&gt;
+
+&lt;p&gt;Now, I’ve said it to my bosses and coworkers and friends and asked for help. I was prepared for disbelief, or incredulity, or disappointment (d. all of the above) that I’d let this happen but instead I received support and commiseration. &lt;img class=&quot;emoji&quot; title=&quot;:heart_eyes:&quot; alt=&quot;:heart_eyes:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f60d.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, I’m taking time off. Three full weeks before the end of the year(!). It’s a start.&lt;/p&gt;
+
+&lt;p&gt;Now, I have calendar events scheduled to remind me to press pause and look around, make notes and goals (even little ones), then to follow-up on those.&lt;/p&gt;
+
+&lt;p&gt;Now, I don’t work through lunch every single day, I turn email &amp;amp; calendars off (and log out of Slack) on Friday nights. If I can reestablish that work doesn’t always get to come first, then maybe I won’t let it.&lt;/p&gt;
+
+&lt;p&gt;So that’s where I’m at: not the best place, but not the worst, armed with a few plans, some determination, and lots of help. Here goes!&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:dancer:&quot; alt=&quot;:dancer:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f483.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;-Sara&lt;/p&gt;
+
+&lt;h4 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h4&gt;
+
+&lt;p&gt;My thanks to &lt;a href=&quot;https://twitter.com/scriberty&quot;&gt;@scriberty&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/hellobox&quot;&gt;@hellbox&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/keavy&quot;&gt;@keavy&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/travisvalentine&quot;&gt;@travisvalentine&lt;/a&gt;, and JA for reviews &amp;amp; edits. &lt;img class=&quot;emoji&quot; title=&quot;:sparkling_heart:&quot; alt=&quot;:sparkling_heart:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f496.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;</content><summary>It is a little bit scary to say, out loud: I am burned out.</summary></entry><entry><title>A developer’s work is never done…</title><link href="/2015/a-developers-work-is-never-done" rel="alternate" type="text/html" title="A developer&amp;#8217;s work is never done…" /><published>2015-08-06T00:00:00-07:00</published><updated>2015-08-06T00:00:00-07:00</updated><id>/2015/a-developers-work-is-never-done</id><content type="html" xml:base="/2015/a-developers-work-is-never-done">&lt;p&gt;“&lt;a href=&quot;http://alistapart.com/column/the-tedium-of-managing-code&quot;&gt;The Tedium of Managing Code&lt;/a&gt;” by &lt;a href=&quot;https://twitter.com/lyzadanger&quot;&gt;Lyza Danger Gardner&lt;/a&gt; is excellent (h/t &lt;a href=&quot;https://twitter.com/scriberty&quot;&gt;@scriberty&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;From the lede: “There’s a place motivation goes to die for web developers. It’s when something we have to do is simultaneously very, very hard and very, very uninteresting. You know, the corner of Hard and Boring Streets in downtown Must-Ship-to-Clientsville.”&lt;/p&gt;
+
+&lt;p&gt;To which I must add: &lt;em&gt;word&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our code base isn’t old by software standards, but in Internet years, it’s practically middle-aged. We used to be a monorail, but &lt;a href=&quot;https://techblog.livingsocial.com/blog/categories/soa/&quot;&gt;now we rock SOA&lt;/a&gt;, which is great! &lt;img class=&quot;emoji&quot; title=&quot;:dancer:&quot; alt=&quot;:dancer:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f483.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, we obviously have what any (every?) large-scale site has: cruft, dead code, junk drawer files. All those “ugh, I’ll clean this up later” helper methods, all that horrendously nested and specific CSS, so much clunky, janky javascript. We have it all. (You can be jealous, it’s all right.)&lt;/p&gt;
+
+&lt;p&gt;A few months back I found myself on a new team and with the luxury (yes) of very few proper projects. I’d occasionally worked on a clean-up task here and there (encouraged by one of my excellent coworkers: &lt;a href=&quot;https://twitter.com/tcopeland&quot;&gt;Tom Copeland&lt;/a&gt;) and I thought, “hey self, why not &lt;em&gt;just&lt;/em&gt; work on clean-up? You know that junk drawer file you hate deep down in your bones? Now’s your chance!”&lt;/p&gt;
+
+&lt;p&gt;And so I took it!&lt;/p&gt;
+
+&lt;p&gt;What does it take to focus on clean-up work for 3 months? What I learned is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;clean-up work is a non-destructive way to indulge in &lt;a href=&quot;http://sethgodin.typepad.com/seths_blog/2005/03/dont_shave_that.html&quot;&gt;yak shaving&lt;/a&gt;; oh sure, you start all high-minded, ready to whip &lt;code&gt;this-terrible-stylesheet.css&lt;/code&gt; into shape and a week later you’ve produced 6 pull requests, deleted a thousand lines of code, and feel pretty awesome. But you still haven’t deleted the file. (Yet.)&lt;/li&gt;
+  &lt;li&gt;you need to schedule non-clean-up work for yourself. Classes, tutorials, &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubber_duck_debugging&quot;&gt;rubber ducking&lt;/a&gt; for a coworker, &lt;em&gt;something&lt;/em&gt;. &lt;em&gt;Anything&lt;/em&gt;. The breaks will keep you from climbing the walls and/or spending a lot of money on new keyboards…&lt;/li&gt;
+  &lt;li&gt;you absolutely need the support of your team and your team lead/manager/boss. We are a pull request kind of organization and it was not uncommon for me to open 5 in a week. If your team doesn’t respond well to a steady flow of pull requests: you in danger, girl.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m a frontend dev and that means clean-up work happens in several arenas. Searching projects in my text editor, &lt;a href=&quot;http://beyondgrep.com/&quot;&gt;&lt;code&gt;ack&lt;/code&gt;-ing&lt;/a&gt; in a shell (&lt;em&gt;and&lt;/em&gt; in my text editor), running test suites (over and over and over), running our entire site locally and kicking the tires (over and over and over). It’s a lot (see above: tedious).&lt;/p&gt;
+
+&lt;p&gt;So why do it?&lt;/p&gt;
+
+&lt;p&gt;It is &lt;em&gt;so&lt;/em&gt; satisfying. &lt;em&gt;Hell yeah&lt;/em&gt; I kept a brag sheet of my deletions (nearly 10,000 LOC!) and it was pretty fun watching the numbers change week-to-week.&lt;/p&gt;
+
+&lt;p&gt;It is also &lt;em&gt;so&lt;/em&gt; important. Reducing overhead when coworkers need to edit, add, or delete a feature? Reducing my own team’s confusion when we’re bug-hunting or troubleshooting? That is incredibly valuable. All the time you don’t spend wondering what a block of code means or does is time you get to spend solving problems.&lt;/p&gt;
+
+&lt;p&gt;While I wouldn’t want to &lt;em&gt;live&lt;/em&gt; on the corner of Hard and Boring Streets, it’s a useful place to visit and leave better than you found it. &lt;img class=&quot;emoji&quot; title=&quot;:punch:&quot; alt=&quot;:punch:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f44a.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;-Sara&lt;/p&gt;</content><summary>“The Tedium of Managing Code” by Lyza Danger Gardner is excellent (h/t @scriberty).</summary></entry><entry><title>Hello again, World!</title><link href="/2015/hello-again-world" rel="alternate" type="text/html" title="Hello again, World!" /><published>2015-05-16T00:00:00-07:00</published><updated>2015-05-16T00:00:00-07:00</updated><id>/2015/hello-again-world</id><content type="html" xml:base="/2015/hello-again-world">&lt;p&gt;Aloha!&lt;/p&gt;
+
+&lt;p&gt;So, check it out: it took me &lt;em&gt;almost&lt;/em&gt; 10 attempts to grok how to make a Jekyll-Github pages site again. I’d done it once before, but went 18 months never updating it, so, y’know: clean slate! (&lt;em&gt;I know, I know:&lt;/em&gt; dead links.) Fool that I can sometimes be, I totally thought this time it would be easier. Jekyll gem, all this extra experience under my belt, blah blah blah… &lt;/p&gt;
+
+&lt;p&gt;I can hear you laughing from here.&lt;/p&gt;
+
+&lt;p&gt;I tried 4 times to start over again using &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Jekyll’s own documentation&lt;/a&gt; and for reasons I don’t fully understand myself, I’d hit a brick wall after running &lt;code&gt;jekyll new name-of-my-new-site&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Instead of boring you with how spectacularly stumped I can get, I’ll tell you what finally worked for me.&lt;/p&gt;
+
+&lt;p&gt;Before doing anything at &lt;a href=&quot;https://github.com&quot;&gt;github.com&lt;/a&gt; or at the command line, I opened up a bunch of Github Pages tutorials and read through them. (I can, fairly, be accused of sometimes jumping too soon and trying to start a thing before reading all the instructions. &lt;em&gt;ahem&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;I had tried (and failed) so many times to start from scratch, so the first step in &lt;a href=&quot;http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/&quot;&gt;this Smashing Magazine tutorial&lt;/a&gt; where you fork a ready-made Jekyll repo and just edit the &lt;code&gt;_config.yml&lt;/code&gt; is what really helped everything fall into place for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jxnblk.com/Heather&quot;&gt;Heather&lt;/a&gt; is the theme I wanted to use and now that I got the whole fork-then-edit thing, starting over with Heather was a snap. Hooray!&lt;/p&gt;
+
+&lt;p&gt;If you have a &lt;a href=&quot;https://github.com/dotsara/dotsara.github.io&quot;&gt;peek at the repo for this site&lt;/a&gt;, you’ll notice that it doesn’t say it’s forked from the Heather repo, anymore. And that’s because in the spirit of “I don’t know, try it out!” I wanted to learn how to kill the commit history on a forked repo. (There’s no real need for me to keep it in this instance.)&lt;/p&gt;
+
+&lt;p&gt;Stack Overflow to the rescue! &lt;a href=&quot;http://stackoverflow.com/questions/4515580/how-do-i-remove-the-old-history-from-a-git-repository&quot;&gt;How do I remove the old history from a git repository?&lt;/a&gt; Way down at the bottom, &lt;a href=&quot;http://stackoverflow.com/a/28081807&quot;&gt;I found what I was after&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s what I did locally:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fork the Heather theme to my repo&lt;/li&gt;
+  &lt;li&gt;Rename the newly-forked repo to &lt;code&gt;dotsara.github.io&lt;/code&gt; (Settings &amp;gt; Repository name)&lt;/li&gt;
+  &lt;li&gt;Clone the repo (via SSH because I don’t want to have to enter my user/pass every. single. time) to my machine: &lt;code&gt;git clone git@github.com:dotsara/dotsara.github.io.git&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;cd&lt;/code&gt; into my new folder: &lt;code&gt;cd dotsara.github.io&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Delete the &lt;code&gt;.git&lt;/code&gt; directory, re-initialize the folder as a git folder, add a remote server back &lt;br /&gt;
+ &lt;code&gt;sudo rm -r .git &amp;amp;&amp;amp; git init &amp;amp;&amp;amp; git remote add origin git@github.com:dotsara/dotsara.github.io.git&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Edit this blog post, make a new commit (which will show all the Jekyll &amp;amp; theme files as new/untracked) and push!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:tada:&quot; alt=&quot;:tada:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f389.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And that’s… that. See you soon!&lt;/p&gt;
+
+&lt;p&gt;-Sara&lt;/p&gt;</content><summary>Aloha!</summary></entry></feed>
