@@ -19,8 +19,29 @@ li {
 }
 
 .author img {
-	border: 1px solid #09c;
-	float: left;
-	margin-right: 2em;
-	padding: 2px;
+  border: 1px solid #09c;
+  float: left;
+  margin-right: 2em;
+  padding: 2px;
+}
+
+/* purple! */
+.post hr {
+  background: #A600F5;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #A600F5));
+  border: 0;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+/* pink! */
+.post hr:nth-of-type(2) {
+  background: #F500A7;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #F500A7));
+}
+
+/* blue! */
+.post hr:nth-of-type(3) {
+  background: #2D00F5;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #2D00F5));
 }
