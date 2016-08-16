@@ -8,7 +8,7 @@ description: "A little motto to help you out, some Janet, and some shirts."
 
 "What's the smallest step I can take to get unstuck?"
 
-This is my newest motto, courtesy of [Jess](https://twitter.com/jessabean) (background: Jess &amp; I met when LivingSocial acquired InfoEther back in 2011). 
+This is my newest motto, courtesy of [Jess](https://github.com/jessabean) (background: Jess &amp; I met when LivingSocial acquired InfoEther back in 2011). 
 
 Jess and I have both been working on side projects ([hers](https://github.com/jessabean/100-javascript-projects), [mine](https://github.com/dotsara/100-projects)), looking for jobs, and interviewing. The smallest step concept came up during a recent Hangout and damn if it's not one of the most useful ideas I've heard in a long time.
 
