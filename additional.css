@@ -45,3 +45,33 @@ li {
   background: #2D00F5;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #2D00F5));
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+
+  a,
+  h1 a {
+    color: #B9FFB3;
+  }
+
+  a:hover,
+  h1 a:hover {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  code {
+    background: #999999;
+    color: #090808;
+    font-size: 110%;
+  }
+
+  .post hr,
+  .post hr:nth-of-type(2),
+  .post hr:nth-of-type(3) {
+    background: #e4e4e4;
+  }
+}
