@@ -1,0 +1,35 @@
+I"�<p>Last month, <a href="https://twitter.com/dotsara/status/710157222391615489">I was laid off</a> (<a href="http://recode.net/2016/03/16/livingsocial-is-laying-off-more-than-50-percent-of-its-staff/">more info</a>). 2 days after my 5-year anniversary, no less! :persevere:</p>
+
+<p>But what I’m interested in today is what happened <em>before</em> I was laid off. Or… <em>while</em> I was being laid off? Ugh, whichever.</p>
+
+<p>My last team made heavy, heavy use of <a href="https://slack.com/">Slack</a>’s <a href="https://slack.com/apps">integrations</a>; in fact, we had a channel (<code class="highlighter-rouge">#flex-team-bots</code>!) just for Github and CI-related (continuous integration) messages. New pull request? <em>Message!</em> Build failed on <code class="highlighter-rouge">x</code> server? <em>Message!</em></p>
+
+<p>All of that would have been 150% overwhelming in our regular channel, but siloed this way they were easy to consume as needed.</p>
+
+<p>The morning of the layoffs, right as DM conversations about layoffs fired up, I noticed a bunch of integrations in multiple channels disappearing. <em>So-and-so deleted an integration in this channel: Github</em></p>
+
+<p>After a handful of these, I @-messaged the person whose name paired with the delete messages, asking if he was auditing integrations or what.</p>
+
+<p>Right about then, <a href="https://twitter.com/m_evans10">Mike Evans</a> DM’d me to point out that when a Slack account is deleted… any integrations that account setup are deleted as well.</p>
+
+<p>Oh. <em>Ooooh.</em> Oh, fuck.</p>
+
+<p>So, <strong>tl;dr</strong>: the Slack account responsible for deleting is the account used in automated messages to the channels/people specified by a given integration.</p>
+
+<h2 id="a-few-thoughts">A few thoughts…</h2>
+
+<ol>
+  <li>I don’t imagine anyone expected automated messages to act as a coal mine canary, my goal here isn’t to wag a finger at Slack, I just wanted to point this out.   <br /><br />
+<em>Knowing is half the battle…?</em></li>
+  <li>In this situation, the person responsible for deleting might not <em>enjoy</em> having to do it but the way Slack seems to be set up, that person ends up <em>the face</em> of it (who knows how many DMs and @’s he got that day…  :confused: ).   <br /><br />
+ <em>Maybe <strong>slackbot</strong> could “send” these messages?</em></li>
+  <li>Because the automated messages don’t provide any detail beyond their app (Github, New Relic, etc.) there’s no way to know <em>which</em> integration was deleted. It might have been really important and useful, but once the dust settles and people realize it’s missing, it’s a guessing game about how to get it back.   <br /><br />
+<em>An integration archive might be useful here?</em> <br />
+<code class="highlighter-rouge">[integration app] [channel destination] [settings] [dates]</code></li>
+</ol>
+
+<p><a href="https://twitter.com/anildash">Anil Dash</a> talks about <a href="https://medium.com/humane-tech/toward-humane-tech-23a20405681a#.l11omvdii">humane tech</a> and my friend (and former coworker!) <a href="https://twitter.com/erniemiller">Ernie Miller</a> talks about <a href="https://ernie.io/2016/03/15/talk-humane-development-empathy-unpacked/">humane <em>development</em></a> and these layoffs functioned, for me, as a practical demonstration of how and why humane tech &amp; development are important.</p>
+
+<p>:wave: <br />
+-Sara</p>
+:ET

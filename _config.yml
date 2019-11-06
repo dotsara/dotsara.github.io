@@ -9,6 +9,7 @@ author: "dotsara"
 exclude: [README.md, Rakefile, NOTES.md]
 paginate: 16
 permalink: /:year/:title
-gems:
+plugins:
   - jemoji
   - jekyll-feed
+  - jekyll-paginate
